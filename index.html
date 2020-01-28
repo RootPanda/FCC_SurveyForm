@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Tell me all about you via this form.</p>
+        <form id="survey-form">
+            <label id="name-label" for="name">Name</label>
+            <input type="text" id="name" placeholder="Your name here"><br>
+            <label id="name-email" for="email">E-mail</label>
+            <input type="email" id="email" placeholder="Your email here"><br>
+            <label id="number-label" for="number">Age</label>
+            <input type="number" id="number" placeholder="Age" min="0" max="9"><br>
+            <label for="dropdown">Gender</label>
+            <select id="dropdown">
+                <option>Male</option>
+                <option>Female</option>
+            </select><br>
+            <label for="dog">Dog</label>
+            <input type="radio" id="dog" name="dogcat"><br>
+            <label for="cat">Cat</label>
+            <input type="radio" id="cat" name="dogcat"><br>
+            <label for="vegan">Vegan</label>
+            <input type="checkbox" id="vegan" value="vegan"><br>
+            <label for="gf">Gluten-Free</label>
+            <input type="checkbox" id="gf" value="gf"><br>
+            <label for="extras">Extra Info</label>
+            <textarea id="extras" placeholder="Extra info here"></textarea><br>
+            <button id="submit">Submit</button>
+        </form>
+    </body>
+</html>
